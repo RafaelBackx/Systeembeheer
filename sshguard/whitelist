@@ -4,3 +4,8 @@
 # Address blocks in CIDR notation
 127.0.0.0/8
 ::1/128
+#my ip address
+84.194.114.9/32
+#mrt address
+193.191.177.1/32
+
