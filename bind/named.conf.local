@@ -7,5 +7,5 @@
 //include "/etc/bind/zones.rfc1918";
 zone "rafael-backx.sb.uclllabs.be" {
      type master;
-     file "/etc/bind/zones/db.rafael-backx.uclllabs.be";
+     file "/etc/bind/db.local";
 };
