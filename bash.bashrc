@@ -69,3 +69,9 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 		fi
 	}
 fi
+
+
+# aliases
+
+#alias add_zone='bash /etc/scripts/add_zone.sh'
+#alias sudo='sudo '

@@ -1,0 +1,4 @@
+include "/etc/bind/mrt-tests/zone.rafael";
+include "/etc/bind/mrt-tests/zone.t";
+include "/etc/bind/mrt-tests/zone.check";
+include "/etc/bind/mrt-tests/zone.subzoneiz2ooc";
