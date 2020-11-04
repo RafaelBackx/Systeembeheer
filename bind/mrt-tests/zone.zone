@@ -1,0 +1,5 @@
+zone "zone.rafael-backx.sb.uclllabs.be" {
+    type master;
+    file "/etc/bind/mrt-tests/db.zone";
+	  allow-transfer { 193.191.177.197; };
+};
