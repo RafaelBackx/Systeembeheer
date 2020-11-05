@@ -1,20 +1,23 @@
 ;
 ; BIND data file for local loopback interface
 ;
-$TTL	604800
+$TTL	300
 @	IN	SOA	ns.rafael-backx.sb.uclllabs.be. root.rafael-backx.sb.uclllabs.be. (
-			      4		; Serial
+			      8		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200	        ; Expire
-			 604800 )	; Negative Cache TTL
-;
+			    300 )	; Negative Cache TTL
+;NS records
 @	IN	NS	ns.rafael-backx.sb.uclllabs.be.
 @	IN	NS	ns1.uclllabs.be.
-@	IN	NS	ns1.uclllabs.be.
+@	IN	NS	ns2.uclllabs.be.
+
 ns      IN      A       193.191.177.197
+;@	IN	A	193.191.177.197
 www     IN      A       193.191.177.197
-test    IN      A       193.191.177.197  
-ns1		IN	A	193.191.176.254
-ns1		IN	A	193.191.177.4
-zone	IN	NS	ns.rafael-backx.sb.uclllabs.be.
+www1	IN	A	193.191.177.197
+www2	IN	A	193.191.177.197
+test    IN      A       193.191.177.254  
+ns1	IN	A	193.191.176.254
+ns1	IN	A	193.191.177.4

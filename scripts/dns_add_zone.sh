@@ -34,7 +34,7 @@ echo "                          86400         ; Retry" >> /etc/bind/mrt-tests/db
 echo "                        2419200         ; Expire" >> /etc/bind/mrt-tests/db.$ZONE
 echo "                         604800 )       ; Negative Cache TTL" >> /etc/bind/mrt-tests/db.$ZONE
 echo ";" >> /etc/bind/mrt-tests/db.$ZONE
-echo "@       IN      NS      ns."$ZONE".rafael-backx.sb.uclllabs.be." >> /etc/bind/mrt-tests/db.$ZONE
+#echo "@       IN      NS      ns."$ZONE".rafael-backx.sb.uclllabs.be." >> /etc/bind/mrt-tests/db.$ZONE
 echo "@       IN      NS      ns.rafael-backx.sb.uclllabs.be." >> /etc/bind/mrt-tests/db.$ZONE
 echo "@	      IN      A       193.191.177.197" >> /etc/bind/mrt-tests/db.$ZONE
 echo "ns      IN      A       193.191.177.197" >> /etc/bind/mrt-tests/db.$ZONE

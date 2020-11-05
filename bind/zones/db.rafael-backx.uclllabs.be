@@ -11,5 +11,9 @@ $TTL	604800
 ;
 @	IN	NS	ns.rafael-backx.sb.uclllabs.be.
 ns      IN      A       193.191.177.197
+@	IN	NS	ns1.uclllabs.be.
+@	IN	NS	ns2.uclllabs.be.
 www     IN      A       193.191.177.197
-test.rafael-backx.sb.uclllabs.be.    IN    A    193.191.177.254    
+www1	IN	A	193.191.177.197
+www2	IN	A	193.191.177.197
+test    IN      A       193.191.177.254    
