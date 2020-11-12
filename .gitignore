@@ -1,3 +1,5 @@
 mrt/
 incron.d/etc.conf
 bind/mrt-tests/
+bind/named.conf.mrt-zones
+

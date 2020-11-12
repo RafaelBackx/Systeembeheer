@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	ns.rafael-backx.sb.uclllabs.be. root.rafael-backx.sb.uclllabs.be. (
-			     10		; Serial
+			     11		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200	        ; Expire
@@ -21,3 +21,4 @@ www2	IN	A	193.191.177.197
 test    IN      A       193.191.177.254  
 ns1	IN	A	193.191.176.254
 ns1	IN	A	193.191.177.4
+subzoneaeh9oh	IN	NS	ns.rafael-backx.sb.uclllabs.be.
