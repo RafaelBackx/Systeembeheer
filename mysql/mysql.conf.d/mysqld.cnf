@@ -29,7 +29,7 @@ user		= mysql
 # Instead of skip-networking the default is now to listen only on
 # localhost which is more compatible and is not less secure.
 bind-address		= 193.191.177.197
-
+event_scheduler = ON
 #
 # * Fine Tuning
 #
