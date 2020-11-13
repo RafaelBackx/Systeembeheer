@@ -27,7 +27,7 @@ SUBDOMAINFILE="/etc/bind/mrt-tests/db."$SUBDOMAIN
 
 #if [ -e "/etc/bind/mrt-tests/db.$SUBDOMAIN" ]
 # then
-	touch /etc/apache2/sites-available/$VHOST.conf
+	touch /etc/apache2/sites-available/mrt-hosts/$VHOST.conf
 	FILE="/etc/apache2/sites-available/"$VHOST".conf"
 	echo "<VirtualHost *:80>" >>  $FILE
 	echo "	ServerAdmin webmaster@localhost" >> $FILE
