@@ -19,3 +19,7 @@ recipient_delimiter = +
 
 compatibility_level = 2
 
+# MY CONFIG
+virtual_mailbox_domains=hash:/etc/postfix/vmail_domains
+virtual_mailbox_maps=hash:/etc/postfix/vmail_mailbox
+virtual_alias_maps=hash:/etc/postfix/vmail_aliases

@@ -24,4 +24,6 @@ secure	IN	A	193.191.177.197
 test    IN      A       193.191.177.254  
 ns1	IN	A	193.191.176.254
 ns1	IN	A	193.191.177.4
+	IN	MX	10 mx.rafael-backx.sb.uclllabs.be.
+mx	IN	A	193.191.177.197
 subzoneaeh9oh	IN	NS	ns.rafael-backx.sb.uclllabs.be.
