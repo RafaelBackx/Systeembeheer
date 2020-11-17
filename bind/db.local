@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	ns.rafael-backx.sb.uclllabs.be. root.rafael-backx.sb.uclllabs.be. (
-			     12		; Serial
+			     14		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200	        ; Expire
@@ -12,18 +12,20 @@ $TTL	300
 @	IN	NS	ns.rafael-backx.sb.uclllabs.be.
 @	IN	NS	ns1.uclllabs.be.
 @	IN	NS	ns2.uclllabs.be.
-
+@	IN	NS	jonas-deboeck.sb.uclllabs.be.
+;
 @	IN	A	193.191.177.197
 ns      IN      A       193.191.177.197
 www     IN      A       193.191.177.197
 www1	IN	A	193.191.177.197
 www2	IN	A	193.191.177.197
 secure	IN	A	193.191.177.197
+supersecure	IN	A	193.191.177.197
 @	IN	CAA       1 issue "letsencrypt.org"
 @	IN	CAA	  1 iodef "mailto:rafael.backx@student.ucll.be"
 test    IN      A       193.191.177.254  
 ns1	IN	A	193.191.176.254
 ns1	IN	A	193.191.177.4
-	IN	MX	10 mx.rafael-backx.sb.uclllabs.be.
+@	IN	MX	10	mx
 mx	IN	A	193.191.177.197
 subzoneaeh9oh	IN	NS	ns.rafael-backx.sb.uclllabs.be.
