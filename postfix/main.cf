@@ -13,6 +13,7 @@ alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 #mydestination = $myhostname, localhost.$mydomain, localhost
 mydestination = localhost.$mydomain, localhost, $myhostname
+myhostname = mx.rafael-backx.sb.uclllabs.be
 relayhost = 
 mynetworks = 127.0.0.0/8, 193.191.177.0/24
 inet_interfaces = all
