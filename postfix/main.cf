@@ -15,7 +15,7 @@ alias_database = hash:/etc/aliases
 mydestination = localhost.$mydomain, localhost, $myhostname
 myhostname = mx.rafael-backx.sb.uclllabs.be
 relayhost = 
-mynetworks = 127.0.0.0/8, 193.191.177.0/24
+mynetworks = 127.0.0.0/8, 193.191.177.0/24, 10.0.0.0/8, 172.16.0.0/20, 192.168.0.0/16
 inet_interfaces = all
 recipient_delimiter = +
 
